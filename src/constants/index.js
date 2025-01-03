@@ -72,5 +72,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "No:32,Wajiragnana Mawatha,Baddegama,Walgama,Matara ",
   phoneNo: "+9470 430 8123 ",
-  email: "tharushasamarawickram@gmail.com",
+  email: "tharushasamarawickrama@gmail.com",
 };
