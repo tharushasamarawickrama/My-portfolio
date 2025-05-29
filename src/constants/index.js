@@ -3,9 +3,10 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate computer science undergraduate with a growing interest in full-stack development. Skilled in front-end technologies like React and back-end technologies like Node.js and MongoDB, I am continuously enhancing my knowledge through hands-on projects and coursework. My goal is to build robust and scalable web applications while delivering intuitive user experiences.`;
+export const HERO_CONTENT = `I am a passionate Computer Science undergraduate with a strong interest in full-stack development and DevOps. Proficient in front-end technologies like React, and back-end frameworks such as Node.js, PHP, and Spring Boot, I also work with databases like MongoDB and MySQL. I continuously build my skills through hands-on projects and coursework, aiming to develop scalable, user-friendly web applications and reliable deployment pipelines.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 3 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL,  and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT_1 = `I am a dedicated and adaptable full-stack developer with a strong passion for building scalable, user-friendly web applications. As a Computer Science undergraduate, I’ve gained hands-on experience with technologies like React, Node.js, Express.js, PHP, Spring Boot, MongoDB, and MySQL through academic projects and self-learning. I’m also developing a keen interest in DevOps and deployment automation. Driven by curiosity and problem-solving, I enjoy working in collaborative environments and continuously strive to improve my skills by exploring modern development tools and software architecture concepts.`;
+
 
 export const EXPERIENCES = [
   {

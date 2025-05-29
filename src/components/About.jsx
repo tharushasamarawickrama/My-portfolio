@@ -1,5 +1,5 @@
 import aboutImg from '../assets/about.jpg';
-import { ABOUT_TEXT } from '../constants';
+import {  ABOUT_TEXT_1, ABOUT_TEXT_2 } from '../constants';
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -23,7 +23,8 @@ const About = () => {
                 className='w-full lg:w-1/2'>
                     <div className='flex justify-center lg:justify-start'>
                         <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>
-                            {ABOUT_TEXT}
+                            {ABOUT_TEXT_1}
+
                         </p>
                     </div>
                 </motion.div>
