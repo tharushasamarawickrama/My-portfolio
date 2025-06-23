@@ -42,7 +42,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
-    image: project1,
+    image: BloodLife,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
@@ -71,7 +71,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "No:32,Wajiragnana Mawatha,Baddegama,Walgama,Matara ",
+
   phoneNo: "+9470 430 8123 ",
-  email: "tharushasamarawickrama@gmail.com",
+  email: "tharushasamarawickram@gmail.com",
 };
