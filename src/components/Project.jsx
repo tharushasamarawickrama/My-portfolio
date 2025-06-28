@@ -17,14 +17,45 @@ const Project = () => {
                 whileInView={{opacity:1,x:0}}
                 initial={{opacity:0,x:-100}}
                 transition={{duration:1}}
-                className="w-full lg:w-1/4">
+                className="w-full lg:w-1/4 flex flex-col items-center">
                     <img 
-                    src={project.image}
-                    width={150}
-                    height={150} 
-                    alt={project.title} 
-                    className="mb-6 rounded"
+                        src={project.image}
+                        width={250}
+                        height={250} 
+                        alt={project.title} 
+                        className="mb-6 rounded transition-transform duration-300 hover:scale-105 cursor-pointer"
                     />
+                    <div className="flex gap-2">
+                      {typeof project.github === "object" ? (
+                        <>
+                          <a
+                            href={project.github.frontend}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="me-2 rounded bg-neutral-900 px-3 py-1 text-sm font-medium text-purple-900 border border-purple-900 hover:bg-purple-900 hover:text-white transition"
+                          >
+                            FRONTEND
+                          </a>
+                          <a
+                            href={project.github.backend}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="me-2 rounded bg-neutral-900 px-3 py-1 text-sm font-medium text-purple-900 border border-purple-900 hover:bg-purple-900 hover:text-white transition"
+                          >
+                            BACKEND
+                          </a>
+                        </>
+                      ) : (
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="me-2 rounded bg-neutral-900 px-3 py-1 text-sm font-medium text-purple-900 border border-purple-900 hover:bg-purple-900 hover:text-white transition"
+                        >
+                          GITHUB
+                        </a>
+                      )}
+                    </div>
                 </motion.div>
                 <motion.div
                 whileInView={{opacity:1,x:0}}

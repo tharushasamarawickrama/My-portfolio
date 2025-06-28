@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/TravelSri.jpeg";
+import project2 from "../assets/projects/project-1.jpg"; 
+import project3 from "../assets/projects/healthhub.jpeg";
+import project4 from "../assets/projects/BloodLife.png";
 
 export const HERO_CONTENT = `I am a passionate Computer Science undergraduate with a strong interest in full-stack development and DevOps. Proficient in front-end technologies like React, and back-end frameworks such as Node.js, PHP, and Spring Boot, I also work with databases like MongoDB and MySQL. I continuously build my skills through hands-on projects and coursework, aiming to develop scalable, user-friendly web applications and reliable deployment pipelines.`;
 
@@ -38,35 +38,41 @@ export const EXPERIENCES = [
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
-
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "TravelSri (Ongoing)",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed TravelSri ›, a centralized travel management platform that integrates booking, rentals, guide services, and group tour planning for travelers in Sri Lanka. Implemented secure payment handling, user role management, and real-time notifications as part of a team-based academic project. Focused on scalable architecture and user-centric design.",
+    technologies: ["React", "React Native", "Spring Boot",  "MongoDB"],
+    github: "https://github.com/tharushasamarawickrama/TravelSri"
   },
   {
-    title: "Task Management App",
+    title: "CryptoTradeX (Ongoing)",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Engineered CryptoTradeX, a secure crypto trading platform with real-time data, wallet transfers, and payment gateway integration. Technologies used include Spring Boot, React, MySQL, and APIs like CoinGecko and Razorpay.",
+    technologies: ["React", "Spring Boot", "PostgreSQL"],
+    github: "https://github.com/yourusername/cryptotradex"
   },
   {
-    title: "Portfolio Website",
+    title: "HealthHub",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A web-based healthcare management platform integrating patient record handling, appointment scheduling, prescription processing, and pharmacy/lab test management. Contributed to user role-specific modules and improved healthcare workflow efficiency through real-time access and streamlined operations. Developed as part of a second-year group project focusing on practical healthcare challenges.",
+    technologies: ["HTML", "CSS", "PHP", "JavaScript"],
+    github: "https://github.com/tharushasamarawickrama/Health-Hub"
   },
   {
-    title: "Blogging Platform",
+    title: "BloodLife",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A role-based Blood Bank Management System enabling blood request submissions, donation camp participation, and admin approvals. Built using the MERN stack with Material UI for a responsive interface and Git/GitHub for team collaboration.",
+    technologies: ["MongoDB", "Express", "React", "Node"],
+    github: {
+      frontend: "https://github.com/tharushasamarawickrama/rad-project-frontend",
+      backend: "https://github.com/tharushasamarawickrama/rad-project-backend"
+    }
   },
 ];
 
